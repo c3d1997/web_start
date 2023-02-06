@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
+  "name": "web_start",
+  "description": "起手設定",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c3d1997/start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c3d1997/start/issues"
+  },
+  "homepage": "https://github.com/c3d1997/start#readme",
+  "devDependencies": {
+    "gulp-purgecss": "^5.0.0",
+    "sass": "^1.58.0"
+  }
+}
