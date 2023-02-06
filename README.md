@@ -40,10 +40,10 @@ gulp.task('copyFile', () => {
 });
 ```
 
->gulp.task()：創建名為 copyFile 的任務(水管名稱)
->gulp.src()：導入 index.html 這一個檔案(水的來源)
->.pipe()：以 gulp.src() 導入的檔案需做的處理(截獲水源所做的處理)
->gulp.dest()：檔案輸出的目錄(水該從何處流出)
+1. gulp.task()：創建名為 copyFile 的任務(水管名稱)
+2. gulp.src()：導入 index.html 這一個檔案(水的來源)
+3. .pipe()：以 gulp.src() 導入的檔案需做的處理(截獲水源所做的處理)
+4. gulp.dest()：檔案輸出的目錄(水該從何處流出)
 
 安裝所需plugin
 npm i sass //sass安裝
